@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 2. Buat script executable (opsional):
 ```bash
-chmod +x FuckEnc.py
+chmod +x FuckEnc
 ```
 
 ## Fitur
@@ -31,52 +31,52 @@ chmod +x FuckEnc.py
 
 ### Enkripsi File
 ```bash
-python FuckEnc.py encrypt -f file.txt -p password123
+./FuckEnc encrypt -f file.txt -p password123
 ```
 
 ### Dekripsi File
 ```bash
-python FuckEnc.py decrypt -f file.txt.encrypted -p password123
+./FuckEnc decrypt -f file.txt.encrypted -p password123
 ```
 
 ### Enkripsi Folder (Rekursif)
 ```bash
-python FuckEnc.py encrypt -d /path/to/folder -p password123
+./FuckEnc encrypt -d /path/to/folder -p password123
 ```
 
 ### Enkripsi Folder (Non-Rekursif)
 ```bash
-python FuckEnc.py encrypt -d /path/to/folder -p password123 --no-recursive
+./FuckEnc encrypt -d /path/to/folder -p password123 --no-recursive
 ```
 
 ### Dekripsi Folder (Rekursif)
 ```bash
-python FuckEnc.py decrypt -d /path/to/folder -p password123
+./FuckEnc decrypt -d /path/to/folder -p password123
 ```
 
 ### Enkripsi dari File List
 ```bash
-python FuckEnc.py encrypt -l file_list.txt -p password123
+./FuckEnc encrypt -l file_list.txt -p password123
 ```
 
 ### Dekripsi dari File List
 ```bash
-python FuckEnc.py decrypt -l file_list.txt -p password123
+./FuckEnc decrypt -l file_list.txt -p password123
 ```
 
 ### List File Terenkripsi (Current Directory)
 ```bash
-python FuckEnc.py list
+./FuckEnc list
 ```
 
 ### List File Terenkripsi (Folder Tertentu)
 ```bash
-python FuckEnc.py list -d /path/to/folder
+./FuckEnc list -d /path/to/folder
 ```
 
 ### List File Terenkripsi (Non-Rekursif)
 ```bash
-python FuckEnc.py list -d /path/to/folder --no-recursive
+./FuckEnc list -d /path/to/folder --no-recursive
 ```
 
 ## Format File List
