@@ -158,7 +158,7 @@ Thumbs.db
 Desktop.ini
 
 # Binary executable (if it's a build artifact)
-.code/
+
 
 # Encrypted files (optional - uncomment if you don't want to track encrypted files)
 # *.encrypted
